@@ -1,0 +1,31 @@
+PODS:
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+
+DEPENDENCIES:
+  - Flutter (from `/Users/shengxin/Desktop/FlutterNavite/Flutter/flutter_module/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `/Users/shengxin/Desktop/FlutterNavite/Flutter/flutter_module/.ios/Flutter/FlutterPluginRegistrant`)
+  - SDWebImage (~> 4.4.3)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "/Users/shengxin/Desktop/FlutterNavite/Flutter/flutter_module/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "/Users/shengxin/Desktop/FlutterNavite/Flutter/flutter_module/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  FlutterPluginRegistrant: 3f4d45b679eb21eb53e786e8884a26157555ce9f
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+
+PODFILE CHECKSUM: 5b47e39680a673f8899665c8659298a7e6064aab
+
+COCOAPODS: 1.6.1
