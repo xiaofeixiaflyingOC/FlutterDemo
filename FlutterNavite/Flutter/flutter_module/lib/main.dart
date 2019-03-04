@@ -57,6 +57,7 @@ class Home extends StatelessWidget{
                 fontSize: 14,
                 letterSpacing:2,//字母间距
                 color:const Color(0xFF000000),
+                height: (5+14)/14.0//单行高度=行高系数x字体高度
               ),
             )
           ],
