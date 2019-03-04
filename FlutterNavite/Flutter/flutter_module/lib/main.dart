@@ -8,8 +8,11 @@ class App extends StatelessWidget{
     return MaterialApp(
       home: Home(),
       theme: ThemeData(
-        primarySwatch: Colors.yellow
+        primarySwatch: Colors.yellow,
+            highlightColor: Color.fromRGBO(255, 255, 255,0.5),
+        splashColor: Colors.white70
       )
+
     );
   }
 }
@@ -18,79 +21,93 @@ class App extends StatelessWidget{
 
 
 class Home extends StatelessWidget{
-  Widget _listItemBuilder(BuildContext context, int index){
-    if(index.isOdd){
-      // 在每一列之前，添加一个1像素高的分隔线widget
-      return new Divider(
-        height: 1.0,
-        color: Color.fromRGBO(166, 165, 245, 1.0),
-      );
-    }
-
-//    return Text(posts[index].title);
-      return Container(
-        color: Color.fromRGBO(166, 165, 245, 1.0),
-        margin: EdgeInsets.fromLTRB(10, 15, 10, 15),
-        height:(100),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            //文字左对齐显示
-            Text(
-                '测试数据title',
-                softWrap: true,//是否自动换行，若为false，文字将不考虑容器大小，单行显示，超出屏幕部分将默认截断处理
-                textAlign: TextAlign.left,//左对齐
-                overflow: TextOverflow.ellipsis,//超出部分省略号
-                maxLines: 1,
-                style:TextStyle(
-                  fontSize: 16,
-                  color:const Color(0xFF000000),
-                ),
-              ),
-            Text(
-              '测试数据 context说的发艾弗森的范德萨范德萨发大水发大水fdsafasdfadsfds',
-              softWrap: true,
-              textAlign: TextAlign.left,//左对齐
-              overflow: TextOverflow.ellipsis,//超出部分省略号
-              maxLines: 2,
-              style:TextStyle(
-                fontSize: 14,
-                letterSpacing:2,//字母间距
-                color:const Color(0xFF000000),
-              ),
-            )
-          ],
-        ),
-
-      );
-  }
-
   @override
   Widget build(BuildContext context){
-    return MaterialApp(
-      home: Scaffold(
+
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        drawer: Drawer(
+         child: ListView(
+           padding: EdgeInsets.zero,
+           children: <Widget>[
+             DrawerHeader(
+               child: Text('header'.toUpperCase()),
+               decoration: BoxDecoration(
+                 color: Colors.grey[100],
+               ),
+             ),
+             ListTile(
+               title: Text('Message',textAlign:TextAlign.right),
+               trailing: Icon(Icons.message,color: Colors.black12,size:22),
+             ),
+             ListTile(
+               title: Text('Favorite',textAlign:TextAlign.right),
+               trailing: Icon(Icons.favorite,color: Colors.black12,size:22),
+             ),
+             ListTile(
+               title: Text('Settings',textAlign:TextAlign.right),
+               trailing: Icon(Icons.settings,color: Colors.black12,size:22),
+             ),
+           ],
+         ),
+        ),
+
+
+        backgroundColor: Colors.grey[100],
         appBar: AppBar(
-          title: Text(
-            'Material example',
-            style: TextStyle(
-              fontSize: 20,
-              color:const Color(0xFFFFFFFF),
-              fontWeight: FontWeight.bold,
+        leading: IconButton(
+          icon: Icon(Icons.menu),
+          onPressed: ()=> debugPrint('Navigation button is Pressed'),
+        ),
+          title: Text('Flutter Demo'),
+          elevation: 0,//bar下面的阴影
+          actions: <Widget>[
+            IconButton(
+              icon: Icon(Icons.search),
+              onPressed: ()=> debugPrint('Navigation Search button is Pressed'),
             ),
+          ],
+          bottom: TabBar(
+            unselectedLabelColor: Colors.black38,
+            indicatorColor: Colors.black54,
+            indicatorSize: TabBarIndicatorSize.label,
+            indicatorWeight: 10.0,
+            tabs: <Widget>[
+              Tab(text: 'aaaa',),
+              Tab(icon: Icon(Icons.change_history)),
+              Tab(icon: Icon(Icons.directions_bike)),
+            ],
           ),
-          elevation: 5,
-          backgroundColor: Color.fromRGBO(166, 165, 245, 1.0),
-        ),
-        body: ListView.builder(
-//          itemCount: posts.length,
-          itemCount:10,
-          itemBuilder: _listItemBuilder,
-
-
-
-        ),
       ),
+       body:TabBarView(
+          children:<Widget>[
+             Icon(Icons.local_florist,size:128.0,color:Colors.black12),
+             Icon(Icons.change_history,size:128.0,color:Colors.black12),
+             Icon(Icons.directions_bike,size:128.0,color:Colors.black12),
+          ],
+       ),
+    )
     );
   }
+//    return Scaffold(
+//      backgroundColor: Colors.grey[100],
+//      appBar: AppBar(
+//        leading: IconButton(
+//          icon: Icon(Icons.menu),
+//          onPressed: ()=> debugPrint('Navigation button is Pressed'),
+//        ),
+//        title: Text('Flutter Demo'),
+//        elevation: 0,//bar下面的阴影
+//        actions: <Widget>[
+//          IconButton(
+//            icon: Icon(Icons.search),
+//            onPressed: ()=> debugPrint('Navigation Search button is Pressed'),
+//          ),
+//        ],
+//      ),
+//      body: null,
+//    );
+
 
 }
