@@ -1,45 +1,93 @@
 import 'package:flutter/material.dart';
 import 'model/post.dart';
 
-class ViewDemo extends StatefulWidget{
-@override
-State<StatefulWidget> createState() {
-  return _ViewState();
-}
-}
-
-class _ViewState extends State<ViewDemo>{
-  int _currentPage = 0;
-    Widget _pageItemBuilder(BuildContext context,int index) {
-
+class ViewDemo extends StatelessWidget {
+  List<Widget> _buildTitles(int length) {
+    return List.generate(length, (int index) {
       return Container(
-        color: Colors.blueGrey,
+        color: Colors.grey[300],
         alignment: Alignment.center,
         child: Text(
-          '$index',
-          style: TextStyle(color: Colors.redAccent, fontSize: 60),
+          'Item $index',
+          style: TextStyle(fontSize: 20, color: Colors.redAccent),
         ),
       );
-    }
-    @override
+    });
+  }
+
+  Widget _gridItemBuilder(BuildContext context, int index) {
+    return Container(
+      child: Image.network(
+        posts[index].imageUrl,
+        fit: BoxFit.cover,
+      ),
+    );
+  }
+
+  @override
   Widget build(BuildContext context) {
     // TODO: implement build
-      return PageView.builder(
+//    return GridView.count(
+//        crossAxisCount: 3,
+//      crossAxisSpacing: 10,
+//      mainAxisSpacing: 16.0,
+//      children:_buildTitles(100),
+//    );
+//    return GridView.extent(
+//      maxCrossAxisExtent: 140,//在交叉轴上 最大尺寸
+//      crossAxisSpacing: 10,
+//      mainAxisSpacing: 16.0,
+//      children:_buildTitles(100),
+//    );
+    return GridView.builder(
+      padding: EdgeInsets.only(left: 15,right: 15,top: 15,bottom: 15),
       itemCount: posts.length,
-      itemBuilder: _pageItemBuilder,
-        scrollDirection: Axis.vertical,
-        onPageChanged: (int index){
-          _currentPage = index;
-          debugPrint('Page: $_currentPage');
-        },
-        controller: PageController(
-        keepPage: true,
-        viewportFraction: 0.85
-        ),
-
+      itemBuilder: _gridItemBuilder,
+      gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+          maxCrossAxisExtent:150, crossAxisSpacing: 8.0, mainAxisSpacing: 8.0),
     );
   }
 }
+
+//class ViewDemo extends StatefulWidget{
+//@override
+//State<StatefulWidget> createState() {
+//  return _ViewState();
+//}
+//}
+//
+//class _ViewState extends State<ViewDemo>{
+//  int _currentPage = 0;
+//    Widget _pageItemBuilder(BuildContext context,int index) {
+//
+//      return Container(
+//        color: Colors.blueGrey,
+//        alignment: Alignment.center,
+//        child: Text(
+//          '$index',
+//          style: TextStyle(color: Colors.redAccent, fontSize: 60),
+//        ),
+//      );
+//    }
+//    @override
+//  Widget build(BuildContext context) {
+//    // TODO: implement build
+//      return PageView.builder(
+//      itemCount: posts.length,
+//      itemBuilder: _pageItemBuilder,
+//        scrollDirection: Axis.vertical,
+//        onPageChanged: (int index){
+//          _currentPage = index;
+//          debugPrint('Page: $_currentPage');
+//        },
+//        controller: PageController(
+//        keepPage: true,
+//        viewportFraction: 0.85
+//        ),
+//
+//    );
+//  }
+//}
 
 //class ViewDemo extends StatelessWidget{
 //  Widget _pageItemBuilder(BuildContext context,int index){
@@ -82,7 +130,6 @@ class _ViewState extends State<ViewDemo>{
 //    );
 //
 //  }
-
 
 //class PageViewDemo extends StatelessWidget{
 //  @override
