@@ -2,13 +2,16 @@ import 'package:flutter/material.dart';
 import 'drawer_demo_dart.dart';
 import 'botton_navigation_bar_demo.dart';
 import 'model/listview_demo_dart.dart';
+import 'basecontrol_demo.dart';
+
+
 void main() => runApp(App());
 
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
+//        debugShowCheckedModeBanner: false,
         home: Home(),
         theme: ThemeData(
             primarySwatch: Colors.purple,
@@ -56,7 +59,7 @@ class Home extends StatelessWidget {
           body: TabBarView(
             children: <Widget>[
               ListViewDemo(),
-              Icon(Icons.change_history, size: 128.0, color: Colors.black12),
+              BaseControl(),
               Icon(Icons.directions_bike, size: 128.0, color: Colors.black12),
             ],
           ),

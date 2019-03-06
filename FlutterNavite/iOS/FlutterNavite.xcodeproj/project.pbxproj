@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		18AE60ADC6ECE666FC3E0553 /* libPods-FlutterNaviteTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A1EE59679C4BE007CF8061 /* libPods-FlutterNaviteTests.a */; };
+		400C4092222E812600784977 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400C408B222E800A00784977 /* App.framework */; };
+		400C4096222E814700784977 /* flutter_assets in Resources */ = {isa = PBXBuildFile; fileRef = 400C4095222E814700784977 /* flutter_assets */; };
+		400C4097222E817200784977 /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400C4093222E813300784977 /* App.framework */; };
+		400C4098222E817200784977 /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 400C4093222E813300784977 /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		40219D5B2228C13600C9BA26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40219D5A2228C13600C9BA26 /* AppDelegate.m */; };
 		40219D5E2228C13600C9BA26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40219D5D2228C13600C9BA26 /* ViewController.m */; };
 		40219D612228C13600C9BA26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40219D5F2228C13600C9BA26 /* Main.storyboard */; };
@@ -16,8 +20,6 @@
 		40219D692228C13700C9BA26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40219D682228C13700C9BA26 /* main.m */; };
 		40219D732228C13700C9BA26 /* FlutterNaviteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40219D722228C13700C9BA26 /* FlutterNaviteTests.m */; };
 		40219D7E2228C13700C9BA26 /* FlutterNaviteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40219D7D2228C13700C9BA26 /* FlutterNaviteUITests.m */; };
-		40B7FADB222911E900F9ED6A /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B7FADA222911E900F9ED6A /* App.framework */; };
-		40B7FADC222911E900F9ED6A /* App.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 40B7FADA222911E900F9ED6A /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		659F1330920F42C24B24F85E /* libPods-FlutterNaviteUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A91EA2D3F035EE0F113DF7 /* libPods-FlutterNaviteUITests.a */; };
 		77CEF21C6F7DF68CCF8BDB1B /* libPods-FlutterNavite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C01A60FE72FD84A99924EA5F /* libPods-FlutterNavite.a */; };
 /* End PBXBuildFile section */
@@ -46,7 +48,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				40B7FADC222911E900F9ED6A /* App.framework in Embed Frameworks */,
+				400C4098222E817200784977 /* App.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -55,6 +57,9 @@
 
 /* Begin PBXFileReference section */
 		23A91EA2D3F035EE0F113DF7 /* libPods-FlutterNaviteUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlutterNaviteUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		400C408B222E800A00784977 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = Flutter/App.framework; sourceTree = "<group>"; };
+		400C4093222E813300784977 /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = Flutter/App.framework; sourceTree = "<group>"; };
+		400C4095222E814700784977 /* flutter_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = flutter_assets; path = Flutter/flutter_assets; sourceTree = "<group>"; };
 		40219D562228C13600C9BA26 /* FlutterNavite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlutterNavite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40219D592228C13600C9BA26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40219D5A2228C13600C9BA26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,8 +77,6 @@
 		40219D7D2228C13700C9BA26 /* FlutterNaviteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlutterNaviteUITests.m; sourceTree = "<group>"; };
 		40219D7F2228C13700C9BA26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40219D8B2228C28D00C9BA26 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		40B7FADA222911E900F9ED6A /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = App.framework; path = Flutter/App.framework; sourceTree = "<group>"; };
-		40B7FADF2229121400F9ED6A /* flutter_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = flutter_assets; path = Flutter/flutter_assets; sourceTree = "<group>"; };
 		49A1EE59679C4BE007CF8061 /* libPods-FlutterNaviteTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlutterNaviteTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC3A0343F8D886DAAE0C8F2 /* Pods-FlutterNavite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterNavite.debug.xcconfig"; path = "Target Support Files/Pods-FlutterNavite/Pods-FlutterNavite.debug.xcconfig"; sourceTree = "<group>"; };
 		77602BF7FC0074033B9D5B71 /* Pods-FlutterNaviteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlutterNaviteUITests.debug.xcconfig"; path = "Target Support Files/Pods-FlutterNaviteUITests/Pods-FlutterNaviteUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,7 +92,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40B7FADB222911E900F9ED6A /* App.framework in Frameworks */,
+				400C4092222E812600784977 /* App.framework in Frameworks */,
+				400C4097222E817200784977 /* App.framework in Frameworks */,
 				77CEF21C6F7DF68CCF8BDB1B /* libPods-FlutterNavite.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,8 +133,8 @@
 		40219D4D2228C13600C9BA26 = {
 			isa = PBXGroup;
 			children = (
-				40B7FADF2229121400F9ED6A /* flutter_assets */,
-				40B7FADA222911E900F9ED6A /* App.framework */,
+				400C4095222E814700784977 /* flutter_assets */,
+				400C4093222E813300784977 /* App.framework */,
 				40219D582228C13600C9BA26 /* FlutterNavite */,
 				40219D712228C13700C9BA26 /* FlutterNaviteTests */,
 				40219D7C2228C13700C9BA26 /* FlutterNaviteUITests */,
@@ -188,6 +192,7 @@
 		DA25C8FB25CC73CDAC11F433 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				400C408B222E800A00784977 /* App.framework */,
 				C01A60FE72FD84A99924EA5F /* libPods-FlutterNavite.a */,
 				49A1EE59679C4BE007CF8061 /* libPods-FlutterNaviteTests.a */,
 				23A91EA2D3F035EE0F113DF7 /* libPods-FlutterNaviteUITests.a */,
@@ -306,6 +311,7 @@
 			files = (
 				40219D662228C13700C9BA26 /* LaunchScreen.storyboard in Resources */,
 				40219D632228C13700C9BA26 /* Assets.xcassets in Resources */,
+				400C4096222E814700784977 /* flutter_assets in Resources */,
 				40219D612228C13600C9BA26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,7 +403,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FlutterNavite/Pods-FlutterNavite-frameworks.sh",
-				"${PODS_ROOT}/../../Flutter/flutter_module/.ios/Flutter/engine/Flutter.framework",
+				"${PODS_ROOT}/../../../../Desktop/FlutterNavite/Flutter/flutter_module/.ios/Flutter/engine/Flutter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (

@@ -42,9 +42,9 @@
 		700FD585F3A66D05C2BC0BC24D42788B /* NSButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6B3618672EE4308B2CA54C57F0E5E8 /* NSButton+WebCache.m */; };
 		71818BD945473872C0A60A139557C050 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = AA80CD80D3D166D6662A764A321C24DB /* UIImage+MultiFormat.m */; };
 		7234196747601ED6B8FBAF7300076070 /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 127C1A508180CB8797A4F134B27AC47D /* SDWebImage-dummy.m */; };
-		7245EA5E3A5C883A821FD6BA6C7F3FF5 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE0B11CAA0575682A3FF3ABBE803723 /* GeneratedPluginRegistrant.m */; };
-		8552F37F8AC29591CB92BC263780B0C7 /* FlutterPluginRegistrant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E787CAADF8BC69387CE0BACD61A3557F /* FlutterPluginRegistrant-dummy.m */; };
-		856BD2F45AAB24D604137F8122C9F334 /* GeneratedPluginRegistrant.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9A93FFF9305DBF42FEE2EE7390DF24 /* GeneratedPluginRegistrant.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7245EA5E3A5C883A821FD6BA6C7F3FF5 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D7A48EC9C1ADFB404E7F745B7E7FC5 /* GeneratedPluginRegistrant.m */; };
+		8552F37F8AC29591CB92BC263780B0C7 /* FlutterPluginRegistrant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9B8A61165A58A1F83935F5B0D3DCF4 /* FlutterPluginRegistrant-dummy.m */; };
+		856BD2F45AAB24D604137F8122C9F334 /* GeneratedPluginRegistrant.h in Headers */ = {isa = PBXBuildFile; fileRef = FC05799F6F805CE3DEE1DFC1DE744243 /* GeneratedPluginRegistrant.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		867769777E852B4C42BBAD25605E7F63 /* NSButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B8E7EC454C5E3D118D081887B7B76981 /* NSButton+WebCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		90C38666DBF3CDC03FD7768B48DBC19C /* SDWebImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BFEC82A6A3C599E23F441DC31551E7 /* SDWebImageCoder.m */; };
 		91CFB600E7FE220081F644A128715C8F /* SDWebImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 759B747D646C99C5CE4DCD0A566BA123 /* SDWebImageCoderHelper.m */; };
@@ -130,16 +130,16 @@
 
 /* Begin PBXFileReference section */
 		004AE21B2882C3F6A2B70C7F904B8D24 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		00B52A82F18E00DCEC0581BB357C8C19 /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0BE79076C8DA6C795156DB86AA2C3448 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
-		0C56BE5DA11406F5A482C3AA8DB50B09 /* FlutterPluginRegistrant.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.xcconfig; sourceTree = "<group>"; };
 		0C60660A6E6FE5581C5BECAAB6CA60BC /* Pods-FlutterNaviteTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FlutterNaviteTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FA4BA15802F1500BEC01CC10C84FC84 /* FlutterPluginRegistrant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-prefix.pch"; sourceTree = "<group>"; };
 		122946FD0ADCE14C0BAF3E99E77A4AA6 /* SDWebImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageGIFCoder.m; path = SDWebImage/SDWebImageGIFCoder.m; sourceTree = "<group>"; };
 		1245BFBDB5A06239346114CE65388835 /* UIImage+MemoryCacheCost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MemoryCacheCost.h"; path = "SDWebImage/UIImage+MemoryCacheCost.h"; sourceTree = "<group>"; };
 		127C1A508180CB8797A4F134B27AC47D /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
 		143A2D201022AE69AC72E0754C807CC1 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
 		14FC4BC6D1D50652BAE767C52B1B1D65 /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
 		159B090BA5D404E12BB2CB7AA35A81AC /* UIImage+MemoryCacheCost.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MemoryCacheCost.m"; path = "SDWebImage/UIImage+MemoryCacheCost.m"; sourceTree = "<group>"; };
-		1A9A93FFF9305DBF42FEE2EE7390DF24 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeneratedPluginRegistrant.h; path = Classes/GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1C8258049C7D7645B048D4AFCF4F75D5 /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
 		2052818CE531361211A7EB2E4D51C9FB /* Pods-FlutterNavite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlutterNavite-dummy.m"; sourceTree = "<group>"; };
 		22B81A5331B913E5B71C0B3AF48F7F7A /* Pods-FlutterNaviteUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FlutterNaviteUITests-dummy.m"; sourceTree = "<group>"; };
@@ -147,13 +147,13 @@
 		29DA1359B6A31723D56DFEC7D4056C01 /* SDWebImageImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageImageIOCoder.m; path = SDWebImage/SDWebImageImageIOCoder.m; sourceTree = "<group>"; };
 		29E00566240049E9E2F0B60EC85C0ACB /* SDAnimatedImageRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAnimatedImageRep.m; path = SDWebImage/SDAnimatedImageRep.m; sourceTree = "<group>"; };
 		2E81F0794F81A68FD7432954ABB582DB /* SDWebImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageFrame.m; path = SDWebImage/SDWebImageFrame.m; sourceTree = "<group>"; };
+		3059F07064D6DCE7AEE3D3DD48087B5C /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
 		33A689ACE0F11C0A22BA9BA552084C34 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
 		39ED9EB15380C146B268A7C16349A938 /* Pods-FlutterNaviteUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterNaviteUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3A1FFF2758E7F23DCF3293C999C65EE1 /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
 		3A28AD4F4375FF62F311966A467A28D4 /* SDWebImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageGIFCoder.h; path = SDWebImage/SDWebImageGIFCoder.h; sourceTree = "<group>"; };
 		3ED9FBA41FC9CBC2E8F031FCF90C5CDF /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		4139FDF0CF80A186FD127AC6DC714895 /* Pods-FlutterNavite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterNavite.release.xcconfig"; sourceTree = "<group>"; };
-		41500B94C5D956A71AB2F75D5D721137 /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
 		46713F0DD9F024E2A5E3F9CD857C3192 /* SDWebImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCodersManager.h; path = SDWebImage/SDWebImageCodersManager.h; sourceTree = "<group>"; };
 		46E55E6A240C372D364AE3C224C8F187 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
 		479965727C92C1894C0688933D6D8A8A /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
@@ -162,9 +162,9 @@
 		4A36A22D8F343F72EED4504DAAA1F471 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
 		4CCEAD7A05807E7AA1C83B9A0DB16734 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		4EAABAE49CE6E0E4E4D431C99A5E8F8D /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		51D7A48EC9C1ADFB404E7F745B7E7FC5 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeneratedPluginRegistrant.m; path = Classes/GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		57778DA182FCB1F83DB55EABD970CC11 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
-		5A62D7A308251BE8491504CEE07D584F /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5AF434B064214534A4F42E5FFE580489 /* Flutter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
+		5A9B8A61165A58A1F83935F5B0D3DCF4 /* FlutterPluginRegistrant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlutterPluginRegistrant-dummy.m"; sourceTree = "<group>"; };
 		5B53ADB3E62E246637A12DDDC6BF2571 /* libFlutterPluginRegistrant.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFlutterPluginRegistrant.a; path = libFlutterPluginRegistrant.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC8BDE4406F32156C0AD77B9C111CDA /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
 		5F002DDF5832E182178895918C5AA73B /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
@@ -175,16 +175,15 @@
 		6B01B39EE202EA47AF8AD0286EB2A4E8 /* SDWebImageTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageTransition.h; path = SDWebImage/SDWebImageTransition.h; sourceTree = "<group>"; };
 		6B7254C41F920F8E1A1D6153D7687007 /* Pods-FlutterNaviteUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterNaviteUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6CB0CAB8ACB9356B5E97060AAFE720DD /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		6EA5397C5B1E0E659E8E8394AC932809 /* Flutter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.xcconfig; sourceTree = "<group>"; };
 		72BFEC82A6A3C599E23F441DC31551E7 /* SDWebImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoder.m; path = SDWebImage/SDWebImageCoder.m; sourceTree = "<group>"; };
 		74BD1D236E6961CCA8547696C8992CB7 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
 		756B7FD07C586479E600D246251E543F /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
 		759B747D646C99C5CE4DCD0A566BA123 /* SDWebImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoderHelper.m; path = SDWebImage/SDWebImageCoderHelper.m; sourceTree = "<group>"; };
 		78523822D9B230395760DD25B6F5253F /* Pods-FlutterNaviteUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FlutterNaviteUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		7B74DFDE591364ACB73CBD4F27456259 /* FlutterPluginRegistrant-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FlutterPluginRegistrant-prefix.pch"; sourceTree = "<group>"; };
 		7BE1D204A2AD74A230802A35EFB8F274 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		82177AF0FCB5E5318499A52EA021170D /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
 		8D5270152E3D5F69E15B6E44BCF1C42B /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
-		8E0A1E78CECEB23987D354F4080A0E56 /* FlutterPluginRegistrant.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FlutterPluginRegistrant.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		92707ABB89DB7E863D53115F21B7B6C5 /* SDWebImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoder.h; path = SDWebImage/SDWebImageCoder.h; sourceTree = "<group>"; };
 		9446903FA9C36A4DBC66F1B316AAB98A /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		96B3D2530C048DA45BEC80052310DCC7 /* SDWebImageImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageImageIOCoder.h; path = SDWebImage/SDWebImageImageIOCoder.h; sourceTree = "<group>"; };
@@ -203,6 +202,8 @@
 		B84326FBEB9E652EC7DABCC47C0941E3 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
 		B8E7EC454C5E3D118D081887B7B76981 /* NSButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSButton+WebCache.h"; path = "SDWebImage/NSButton+WebCache.h"; sourceTree = "<group>"; };
 		B9AD7D2DEF98C9F83D2025A5C2996365 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
+		BCC86DCFF91ED6535C1C75D6362404AA /* FlutterPluginRegistrant.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FlutterPluginRegistrant.xcconfig; sourceTree = "<group>"; };
+		BD2F5951990C3BF99A67F9CA0B409536 /* FlutterPluginRegistrant.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FlutterPluginRegistrant.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D104544F8DF9B5E8B932A7F983D160F5 /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
 		D880BB959AE1E82DC88911A5F5C95ABC /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		DB5AD6E7D4331DD19EDB38FB4E43D451 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDWebImage.a; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -211,13 +212,12 @@
 		DE981192C3550C074950AC471624C357 /* SDWebImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageFrame.h; path = SDWebImage/SDWebImageFrame.h; sourceTree = "<group>"; };
 		E630DBDD745196DA71615433E00EA528 /* SDWebImageTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageTransition.m; path = SDWebImage/SDWebImageTransition.m; sourceTree = "<group>"; };
 		E73972BC2C8061823876BB7B1DA6A88A /* SDWebImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCodersManager.m; path = SDWebImage/SDWebImageCodersManager.m; sourceTree = "<group>"; };
-		E787CAADF8BC69387CE0BACD61A3557F /* FlutterPluginRegistrant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlutterPluginRegistrant-dummy.m"; sourceTree = "<group>"; };
 		EA76192DC5FA4B4A6C709FE44212DE37 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
-		ECE0B11CAA0575682A3FF3ABBE803723 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GeneratedPluginRegistrant.m; path = Classes/GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		F171383A013C8A804E86C72B2DCA9BC8 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
 		F4BB64C3BA48F290513F5C6EB02A196B /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		F8994EA26781E6AF815107DB12C30C79 /* SDAnimatedImageRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageRep.h; path = SDWebImage/SDAnimatedImageRep.h; sourceTree = "<group>"; };
 		F9C4B5EA1D4E9BC2FDC64D820E5C36E9 /* Pods-FlutterNaviteTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FlutterNaviteTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC05799F6F805CE3DEE1DFC1DE744243 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GeneratedPluginRegistrant.h; path = Classes/GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,31 +272,43 @@
 			path = "Target Support Files/Pods-FlutterNaviteTests";
 			sourceTree = "<group>";
 		};
-		2673192F037C821A1A86E823856199A1 /* Pod */ = {
+		2E48513B19092845BEBC3F278C02EEEB /* FlutterPluginRegistrant */ = {
 			isa = PBXGroup;
 			children = (
-				8E0A1E78CECEB23987D354F4080A0E56 /* FlutterPluginRegistrant.podspec */,
+				FC05799F6F805CE3DEE1DFC1DE744243 /* GeneratedPluginRegistrant.h */,
+				51D7A48EC9C1ADFB404E7F745B7E7FC5 /* GeneratedPluginRegistrant.m */,
+				31081CE252C3BC40726152668F21DA10 /* Pod */,
+				389D96D174480CCE81992B3B5E82FE99 /* Support Files */,
+			);
+			name = FlutterPluginRegistrant;
+			path = /Users/shengxin/Desktop/FlutterNavite/Flutter/flutter_module/.ios/Flutter/FlutterPluginRegistrant;
+			sourceTree = "<absolute>";
+		};
+		31081CE252C3BC40726152668F21DA10 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BD2F5951990C3BF99A67F9CA0B409536 /* FlutterPluginRegistrant.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		27103B0BB1A37E694E5AD7DF9844DBD3 /* Flutter */ = {
+		389D96D174480CCE81992B3B5E82FE99 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EEC64E4540445F47739F06ADAB23A30C /* Frameworks */,
-				48E87148391EC6DD7551CAC0BC741419 /* Pod */,
-				69A2B5D7563C78BA08885419FD08E96D /* Support Files */,
+				BCC86DCFF91ED6535C1C75D6362404AA /* FlutterPluginRegistrant.xcconfig */,
+				5A9B8A61165A58A1F83935F5B0D3DCF4 /* FlutterPluginRegistrant-dummy.m */,
+				0FA4BA15802F1500BEC01CC10C84FC84 /* FlutterPluginRegistrant-prefix.pch */,
 			);
-			name = Flutter;
-			path = /Users/shengxin/Desktop/FlutterNavite/Flutter/flutter_module/.ios/Flutter/engine;
-			sourceTree = "<absolute>";
+			name = "Support Files";
+			path = "../../../../../../../FlutterDemo/FlutterNavite/iOS/Pods/Target Support Files/FlutterPluginRegistrant";
+			sourceTree = "<group>";
 		};
-		48E87148391EC6DD7551CAC0BC741419 /* Pod */ = {
+		4824FEBE17414D691BB9CE75BAB7941F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5A62D7A308251BE8491504CEE07D584F /* Flutter.podspec */,
+				3059F07064D6DCE7AEE3D3DD48087B5C /* Flutter.framework */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5AEB77E3DFBD910C77D468A2130F9563 /* Support Files */ = {
@@ -318,37 +330,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		69A2B5D7563C78BA08885419FD08E96D /* Support Files */ = {
+		6CB94BD08FD7F0C92E20DAD2116084EF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5AF434B064214534A4F42E5FFE580489 /* Flutter.xcconfig */,
+				00B52A82F18E00DCEC0581BB357C8C19 /* Flutter.podspec */,
 			);
-			name = "Support Files";
-			path = "../../../../../iOS/Pods/Target Support Files/Flutter";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		7972A85F9ACBDC7111C7A50AAAF86401 /* FlutterPluginRegistrant */ = {
+		9400FDA77A2E88DF2B56C9DE19AA9798 /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
-				1A9A93FFF9305DBF42FEE2EE7390DF24 /* GeneratedPluginRegistrant.h */,
-				ECE0B11CAA0575682A3FF3ABBE803723 /* GeneratedPluginRegistrant.m */,
-				2673192F037C821A1A86E823856199A1 /* Pod */,
-				9596F62A4540A87E10E756458CCF5F02 /* Support Files */,
+				4824FEBE17414D691BB9CE75BAB7941F /* Frameworks */,
+				6CB94BD08FD7F0C92E20DAD2116084EF /* Pod */,
+				ADAA014E91EE7073F0EB1EFEFE71E024 /* Support Files */,
 			);
-			name = FlutterPluginRegistrant;
-			path = /Users/shengxin/Desktop/FlutterNavite/Flutter/flutter_module/.ios/Flutter/FlutterPluginRegistrant;
+			name = Flutter;
+			path = /Users/shengxin/Desktop/FlutterNavite/Flutter/flutter_module/.ios/Flutter/engine;
 			sourceTree = "<absolute>";
-		};
-		9596F62A4540A87E10E756458CCF5F02 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0C56BE5DA11406F5A482C3AA8DB50B09 /* FlutterPluginRegistrant.xcconfig */,
-				E787CAADF8BC69387CE0BACD61A3557F /* FlutterPluginRegistrant-dummy.m */,
-				7B74DFDE591364ACB73CBD4F27456259 /* FlutterPluginRegistrant-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../../../../../iOS/Pods/Target Support Files/FlutterPluginRegistrant";
-			sourceTree = "<group>";
 		};
 		981589CBAAB9249FA46B199F52B34E60 /* SDWebImage */ = {
 			isa = PBXGroup;
@@ -363,8 +362,8 @@
 		AA571B86EDB429AF7C3E6A23397F5473 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				27103B0BB1A37E694E5AD7DF9844DBD3 /* Flutter */,
-				7972A85F9ACBDC7111C7A50AAAF86401 /* FlutterPluginRegistrant */,
+				9400FDA77A2E88DF2B56C9DE19AA9798 /* Flutter */,
+				2E48513B19092845BEBC3F278C02EEEB /* FlutterPluginRegistrant */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -381,6 +380,15 @@
 			);
 			name = "Pods-FlutterNavite";
 			path = "Target Support Files/Pods-FlutterNavite";
+			sourceTree = "<group>";
+		};
+		ADAA014E91EE7073F0EB1EFEFE71E024 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EA5397C5B1E0E659E8E8394AC932809 /* Flutter.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../../../../../../FlutterDemo/FlutterNavite/iOS/Pods/Target Support Files/Flutter";
 			sourceTree = "<group>";
 		};
 		B67CFDD8BB622AB7920DB7B0F7E18A51 /* Pods-FlutterNaviteUITests */ = {
@@ -495,14 +503,6 @@
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EEC64E4540445F47739F06ADAB23A30C /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				41500B94C5D956A71AB2F75D5D721137 /* Flutter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -812,7 +812,7 @@
 /* Begin XCBuildConfiguration section */
 		0F0D7BAA0FE02B4FA956D0D60BCAF406 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C56BE5DA11406F5A482C3AA8DB50B09 /* FlutterPluginRegistrant.xcconfig */;
+			baseConfigurationReference = BCC86DCFF91ED6535C1C75D6362404AA /* FlutterPluginRegistrant.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1078,7 +1078,7 @@
 		};
 		AB0CB4D026ADF818B3D1C5C75E78AF73 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AF434B064214534A4F42E5FFE580489 /* Flutter.xcconfig */;
+			baseConfigurationReference = 6EA5397C5B1E0E659E8E8394AC932809 /* Flutter.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1096,7 +1096,7 @@
 		};
 		CBAF2437F099192B95FDCFA4CA0A8E0D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5AF434B064214534A4F42E5FFE580489 /* Flutter.xcconfig */;
+			baseConfigurationReference = 6EA5397C5B1E0E659E8E8394AC932809 /* Flutter.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1113,7 +1113,7 @@
 		};
 		D7E83172FBAE3E6B904F855540E728E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C56BE5DA11406F5A482C3AA8DB50B09 /* FlutterPluginRegistrant.xcconfig */;
+			baseConfigurationReference = BCC86DCFF91ED6535C1C75D6362404AA /* FlutterPluginRegistrant.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
