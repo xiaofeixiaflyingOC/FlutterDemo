@@ -4,7 +4,7 @@ import 'botton_navigation_bar_demo.dart';
 import 'model/listview_demo_dart.dart';
 import 'basecontrol_demo.dart';
 import 'layout_demo_dart.dart';
-
+import 'view_deom_dart.dart';
 void main() => runApp(App());
 
 class App extends StatelessWidget {
@@ -25,7 +25,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-        length: 3,
+        length: 4,
         child: Scaffold(
           drawer: DrawerDemo(),
           bottomNavigationBar: BottomNavigationBarDemo(),
@@ -51,6 +51,7 @@ class Home extends StatelessWidget {
                 ),
                 Tab(icon: Icon(Icons.change_history)),
                 Tab(icon: Icon(Icons.directions_bike)),
+                Tab(icon: Icon(Icons.view_quilt))
               ],
             ),
           ),
@@ -59,6 +60,7 @@ class Home extends StatelessWidget {
               ListViewDemo(),
               BaseControl(),
               LayoutDemo(),
+              ViewDemo(),
             ],
           ),
         ));
