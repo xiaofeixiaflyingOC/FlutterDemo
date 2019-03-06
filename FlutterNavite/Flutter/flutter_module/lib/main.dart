@@ -29,8 +29,6 @@ class Home extends StatelessWidget {
         child: Scaffold(
           drawer: DrawerDemo(),
           bottomNavigationBar: BottomNavigationBarDemo(),
-
-
           backgroundColor: Colors.grey[100],
           appBar: AppBar(
             title: Text('Flutter Demo'),
