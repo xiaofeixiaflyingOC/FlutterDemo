@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'post.dart';
-
+import 'package:flutter_module/listview_content_dart.dart';
 class ListViewDemo extends StatelessWidget {
   Widget _listItemBulider(BuildContext context, int index) {
     return Container(
@@ -27,6 +27,22 @@ class ListViewDemo extends StatelessWidget {
               SizedBox(height: 16.0),
             ],
           ),
+          Positioned.fill(
+              child:Material(
+                color: Colors.transparent,
+                child: InkWell(
+                  splashColor:  Colors.white.withOpacity(0.3),
+                  highlightColor: Colors.white.withOpacity(0.1),
+                  onTap: (){
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context)=> ListViewContentDemo(post:posts[index]))
+                    );
+                  },
+                ),
+              )
+          )
+
+
         ],
       ),
     );

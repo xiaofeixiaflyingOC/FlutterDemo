@@ -6,6 +6,7 @@ import 'basecontrol_demo.dart';
 import 'layout_demo_dart.dart';
 import 'view_deom_dart.dart';
 import 'sliver_demo_dart.dart';
+import 'navigator_demo.dart';
 
 void main() => runApp(App());
 
@@ -14,7 +15,13 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
 //        debugShowCheckedModeBanner: false,
-        home: Home(),
+//        home: NavigatorDemo(),
+
+        initialRoute: '/',
+        routes: {
+  '/': (context)=> NavigatorDemo(),
+          '/about': (context) => Page(title: 'About',)
+        },
         theme: ThemeData(
             primarySwatch: Colors.purple,
             highlightColor: Color.fromRGBO(255, 255, 255, 0.5),
