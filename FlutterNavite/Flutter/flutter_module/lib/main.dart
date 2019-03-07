@@ -7,7 +7,7 @@ import 'layout_demo_dart.dart';
 import 'view_deom_dart.dart';
 import 'sliver_demo_dart.dart';
 import 'navigator_demo.dart';
-
+import 'form_demo.dart';
 void main() => runApp(App());
 
 class App extends StatelessWidget {
@@ -17,10 +17,11 @@ class App extends StatelessWidget {
 //        debugShowCheckedModeBanner: false,
 //        home: NavigatorDemo(),
 
-        initialRoute: '/',
+        initialRoute: '/form',
         routes: {
-  '/': (context)=> NavigatorDemo(),
-          '/about': (context) => Page(title: 'About',)
+          '/': (context)=> Home(),
+          '/about': (context) => Page(title: 'About'),
+          '/form':(context) =>FormDemo(),
         },
         theme: ThemeData(
             primarySwatch: Colors.purple,

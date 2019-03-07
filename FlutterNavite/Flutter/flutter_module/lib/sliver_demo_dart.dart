@@ -8,25 +8,26 @@ class SliverDemo extends StatelessWidget {
     return Scaffold(
       body: CustomScrollView(
         slivers: <Widget>[
-SliverAppBar(
-  title: Text('Sliver Demo'),
+          SliverAppBar(
+            title: Text('Sliver Demo'),
 //  pinned: true,//固定appbar
-floating: true,
-  expandedHeight: 178.0,
-  flexibleSpace: FlexibleSpaceBar(
-    title: Text(
-      'Sliver',
-      style: TextStyle(
-        fontSize: 15.0,
-        letterSpacing: 3.0,
-        fontWeight: FontWeight.w400,
-      ),
-    ),
-    background: Image.network('https://resources.ninghao.net/images/overkill.png',
-    fit: BoxFit.cover,
-    ),
-  ),
-),
+            floating: true,
+            expandedHeight: 178.0,
+            flexibleSpace: FlexibleSpaceBar(
+              title: Text(
+                'Sliver',
+                style: TextStyle(
+                  fontSize: 15.0,
+                  letterSpacing: 3.0,
+                  fontWeight: FontWeight.w400,
+                ),
+              ),
+              background: Image.network(
+                'https://resources.ninghao.net/images/overkill.png',
+                fit: BoxFit.cover,
+              ),
+            ),
+          ),
           SliverSafeArea(
             sliver: SliverPadding(
               sliver: SliverListDemo(),
@@ -49,18 +50,18 @@ class SliverListDemo extends StatelessWidget {
           return Padding(
             padding: EdgeInsets.only(bottom: 32.0),
             child: Material(
-              borderRadius:BorderRadius.circular(12.0) ,
+              borderRadius: BorderRadius.circular(12.0),
               elevation: 14.0,
               shadowColor: Colors.grey.withOpacity(0.5),
-
               child: Stack(
                 children: <Widget>[
                   AspectRatio(
-                    aspectRatio: 16/9,
-                    child: Image.network(posts[index].imageUrl, fit: BoxFit.cover),
+                    aspectRatio: 16 / 9,
+                    child:
+                        Image.network(posts[index].imageUrl, fit: BoxFit.cover),
                   ),
                   Positioned(
-                    top:32.0,
+                    top: 32.0,
                     left: 32.0,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -79,7 +80,6 @@ class SliverListDemo extends StatelessWidget {
                             color: Colors.white,
                           ),
                         ),
-
                       ],
                     ),
                   ),
