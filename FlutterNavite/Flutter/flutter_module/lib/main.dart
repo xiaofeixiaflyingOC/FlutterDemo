@@ -5,6 +5,8 @@ import 'model/listview_demo_dart.dart';
 import 'basecontrol_demo.dart';
 import 'layout_demo_dart.dart';
 import 'view_deom_dart.dart';
+import 'sliver_demo_dart.dart';
+
 void main() => runApp(App());
 
 class App extends StatelessWidget {
@@ -21,7 +23,6 @@ class App extends StatelessWidget {
 }
 
 class Home extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -60,7 +61,8 @@ class Home extends StatelessWidget {
               ListViewDemo(),
               BaseControl(),
               LayoutDemo(),
-              ViewDemo(),
+             SliverDemo(),
+//              ViewDemo(),
             ],
           ),
         ));
