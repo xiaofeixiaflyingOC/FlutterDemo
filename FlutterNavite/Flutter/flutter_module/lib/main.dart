@@ -8,6 +8,8 @@ import 'view_deom_dart.dart';
 import 'sliver_demo_dart.dart';
 import 'navigator_demo.dart';
 import 'form_demo.dart';
+import 'material_components_dart.dart';
+
 void main() => runApp(App());
 
 class App extends StatelessWidget {
@@ -17,11 +19,12 @@ class App extends StatelessWidget {
 //        debugShowCheckedModeBanner: false,
 //        home: NavigatorDemo(),
 
-        initialRoute: '/form',
+        initialRoute: '/material_component',
         routes: {
           '/': (context)=> Home(),
           '/about': (context) => Page(title: 'About'),
           '/form':(context) =>FormDemo(),
+          '/material_component':(context)=>MaterialComponents(),
         },
         theme: ThemeData(
             primarySwatch: Colors.purple,

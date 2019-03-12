@@ -34,10 +34,9 @@ class _RegisterFormState extends State<RegisterForm> {
  bool autoV = false;//首次不执行自动判断
 
  void submitRegisterForm(){
-
    if(registerForKey.currentState.validate()){
      registerForKey.currentState.save();//保存表单里面填写的数据
-     registerForKey.currentState.validate();//
+//     registerForKey.currentState.validate();//
      debugPrint('userName:$userName  password:$passWord');
    }else{
      setState(() {
